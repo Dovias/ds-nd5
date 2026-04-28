@@ -1,9 +1,14 @@
 # KNIME teksto analizė
-Namų darbo nr. 5 
-![](screenshotsa/overview.png)
+Analizei buvo pasirinkta išanalizuoti 20 skirtingų naujienų portalo [https://lrt.lt](https://lrt.lt) straipsnių su parinktomis skirtingomis temomis. Visi šie straipsniai buvo apdoroti `.txt` failo formatu bei patalpinti į [/documents](/documents) direktoriją.
+
+![](screenshots/overview.png)
 ## Duomenų filtravimas
+Prieš pradedant dokumentų klasterizavimą, buvo išfiltruoti duomenys, siekiant pagerinti susiejimo bei klasterizavimo kokybę tyrime.
+
 ![](screenshots/overview-filtering.png)
-## Duomenų normalizavimas
+## Stulpelių normalizavimas
+Atlikus duomenų filtravimą buvo normalizuoti stulpeliai, siekiant pašalinti pertekelinį kiekį stulpelių, nesusijusiu su teksto analizės tyrimu KNIME platformoje.
+
 ![](screenshots/overview-normalization.png)
 ## Hierarchinis klasteriavimas
 Analizės metu atlikta tekstinio panašumo analizė su kitais esančiais dokumentais [/documents](/documents) direktorijoje.
@@ -12,7 +17,7 @@ Analizės metu atlikta tekstinio panašumo analizė su kitais esančiais dokumen
 
 ![](screenshots/hierarchical-parameters.png)
 ### Rezultatai
-Iš gautų rezultatų įžvelgta, kad `cluster_9` klasteris buvo vienas didžiausias sugeneruotas klasterių siejantis šiuos failus:
+Iš gautų rezultatų įžvelgta, kad `cluster_9` klasteris buvo vienas didžiausias sugeneruotas klasteris siejantis šiuos failus:
 1. [5-miskas.txt](documents/5-miskas.txt)
 1. [8-maratonas.txt](documents/8-maratonas.txt)
 1. [12-arestas.txt](documents/12-arestas.txt)
