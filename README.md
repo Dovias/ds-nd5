@@ -13,14 +13,14 @@ Namų darbo nr. 5
 ![](screenshots/k-means-parameters.png)
 ![](screenshots/k-means-results.png)
 ## Teksto panašumo paieška
-Analizės metu buvo atlikta [1-ukraina.txt](documents/10-ukraina.txt) tekstinio failo panašumo analizė su kitais esančiais [dokumentais](documents) tyrime.
+Analizės metu atlikta [1-ukraina.txt](documents/10-ukraina.txt) tekstinio failo panašumo analizė su kitais esančiais [dokumentais](documents) tyrime.
 ## Parametrai
 - Paieškai buvo pasirinktas panašumo koeficientas leidžiantis santykinai nustatyti sąryšį tarp dokumentų turinio.
 - Buvo pasirinktas maksimalus kaimynų limitas `D - 1`, kur `D` yra dokumentų kiekis [/documents](documents) direktorijoje.
 
 ![teksto panašumo paieškos algoritmo parametrai](screenshots/similarity-parameters.png)
 ## Rezultatai
-Iš gautų rezultatų galime įželgti, kad [10-ukraina.txt](documents/10-ukraina.txt) tekstinio failo turinys yra labiausiai susijęs su šiais failais:
+Iš gautų rezultatų įželgta, kad [10-ukraina.txt](documents/10-ukraina.txt) tekstinio failo turinys yra labiausiai susijęs su šiais failais:
 1. [13-karas.txt](documents/13-karas.txt)
 1. [20-laisvalaikis.txt](documents/20-laisvalaikis.txt)
 1. [16-sveikata.txt](documents/16-sveikata.txt)
