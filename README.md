@@ -76,3 +76,6 @@ Iš gautų rezultatų įžvelgta, kad [10-ukraina.txt](documents/10-ukraina.txt)
 
 ## Išvados
 Teksto analizė KNIME platformoje buvo sėkminga. Abi klasterizavimo metodikos buvo sėkmingos bei parodė panašius rezultatus, o teksto panašumo algoritmas sėkmingai susiejo dokumentus pagal teminį panašumą. 
+
+# Nuorodos
+- Projektas: https://hub.knime.com/s/sDb-sUIgZER6uC6l
