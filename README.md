@@ -70,6 +70,9 @@ Iš gautų rezultatų įžvelgta, kad [10-ukraina.txt](documents/10-ukraina.txt)
 1. [16-gamta.txt](documents/16-sveikata.txt)
 1. [14-cornobylis.txt](documents/14-cornobylis.txt)
 
-Atsižvelgus į rezultatus, įžvelgiama, kad šis rezultatas sutampa su paskiausiais [hierachinio](#hierarchinis-klasteriavimas) bei [„k-means“](#klasteriavimas-remiantis-k-means-metodu) klasterizavimo rezultatais. Šių dienų realijos įrodo kad paieškos algoritmas tinkamai sieja dokumentus tarpusavyje.
+Atsižvelgus į rezultatus, įžvelgiama, kad šis rezultatas sutampa su paskiausiais [hierachinio](#hierarchinis-klasteriavimas) bei [„k-means“](#klasteriavimas-remiantis-k-means-metodu) klasterizavimo rezultatais. Šių dienų realijos įrodo kad algoritmas tinkamai sieja dokumentus tarpusavyje.
 
 ![teksto panašumo paieškos algoritmo rezultatų lentelė](screenshots/similarity-results.png)
+
+## Išvados
+Teksto analizė KNIME platformoje buvo sėkminga. Abi klasterizavimo metodikos buvo sėkmingos bei parodė panašius rezultatus, o teksto panašumo algoritmas sėkmingai susiejo dokumentus pagal teminį panašumą. 
